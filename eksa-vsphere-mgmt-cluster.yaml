@@ -8,10 +8,10 @@ spec:
       cilium: {}
     pods:
       cidrBlocks:
-      - 192.168.0.0/16
+      - 10.196.0.0/16
     services:
       cidrBlocks:
-      - 10.96.0.0/12
+      - 10.96.0.0/16
   controlPlaneConfiguration:
     count: 2
     endpoint:
